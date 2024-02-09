@@ -59,10 +59,10 @@ else
 }
 }
 }
-  
 public String reverse(String str)
 {
-   String sNew = new String();
+
+    String sNew = new String();
     for(int i=str.length();i>0;i--)
 {
 if( (Character.isLetter(str.charAt(i-1)))==true &&((str.substring(i-1,i).equals(" "))==false))
@@ -74,5 +74,8 @@ if( (Character.isLetter(str.charAt(i-1)))==true &&((str.substring(i-1,i).equals(
   sNew=sNew.toLowerCase();
 System.out.println(sNew);
 
-    return sNew; 
+    return sNew;
+ 
+}
+
 }
